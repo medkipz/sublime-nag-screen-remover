@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// This is the entire code lol
-
 int main() {
 	const char *filename = "sublime_text.exe";
 	FILE *file = fopen(filename, "rb+");
