@@ -24,7 +24,7 @@ int main() {
 		puts("Press Enter to exit...");
 		getchar();
 		return 1;
-		
+	}
 
 	size_t bytes_written = fwrite(patch, sizeof(unsigned char), sizeof(patch), file);
 	if (bytes_written != sizeof(patch)) {
